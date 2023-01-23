@@ -1,0 +1,26 @@
+#nav-bar {
+  margin-bottom: 1.5em;
+  font-size:large;
+}
+.navbar ul {
+  /* list-style-type: none; */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  color: white;
+  /* display: inline; */
+}
+
+#nav-right{
+    float: right;
+}
+
+#logo{
+    width: 3.2em;
+}
+
+body{
+  font-family: 'Ubuntu';
+}

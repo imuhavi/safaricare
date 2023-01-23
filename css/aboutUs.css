@@ -1,0 +1,30 @@
+body {
+    background-color: #CDCDC2;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    background-color: #A0ADA1;
+    text-align: center;
+}
+
+.comtainer img {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.col-md-12 .pro-pic .shadow-sm {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+img:hover
+{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  transition: 0.5s;
+}
+

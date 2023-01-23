@@ -1,0 +1,239 @@
+* {
+  text-align: center;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.gap {
+  margin-top: 2%;
+}
+
+.container {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.container img {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+img:hover
+{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  transition: 0.5s;
+}
+
+.div-car{
+  position: absolute;
+  bottom: 0;
+  animation: drive 15s linear infinite;
+}
+
+.wheel1{
+  left: 32px;
+}
+.wheel2{
+  left: 242px;
+}
+span{
+/*   font-size:20px; */
+  background: white;
+}
+
+.wheel1, .wheel2{
+  border: 6px solid black;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: silver;
+  position: absolute;
+  top: 55%;
+  animation: turn 3s linear infinite
+}
+
+@keyframes drive{
+  0%{
+    transform: translateX(-500px);
+  }
+  100%{
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes turn{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+.col-sm-6 {
+  background: #CDCDC2;
+}
+
+.other {
+  background: #A0ADA1;
+}
+
+#main-r2d-header{
+  text-align: center;
+
+}
+
+#logo{
+    width: 60px;
+}
+
+#Map {
+    /* height: 50%; */
+    /* The height is 400 pixels */
+    width: 90%;
+    /* The width is the width of the web page */
+  }
+  
+#origin-container {
+  display: flex;
+}
+
+#find-me{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#pickup-location{
+  /* width: 20em; */
+  /* float:left;  */
+}
+
+#pickup-location #destination{
+  padding: 2%;
+  margin: 1%;
+  width: 98%;
+  text-align: left;
+
+}
+
+
+#pickup-location #origin{
+  padding: 2%;
+  margin: 1%;
+  width: 79%;
+  text-align: left;
+}
+
+#date-header{
+  text-align: center;
+}
+
+#pickup-time {
+  display: flex;
+}
+
+#pickup-time input {
+  padding: 1.5%;
+  margin: 0.8%;
+  /* margin-left: 1%; */
+  flex-grow: 1;
+}
+
+#top-left-side{
+  background-color: #9CBDBF;
+}
+
+#show-map{
+  margin: 1%;
+
+}
+
+#map {
+  float: left;
+  display: inline;
+  border: 2px solid black;
+  width: 70%;
+  /* margin-left:2em; */
+}
+
+#Map {
+  height: auto;
+}
+
+#post-map-text {
+  background-color: #F9D8C7;
+  text-align: center;
+}
+
+/* ----------------- */
+
+#status{
+  text-align: center;
+  height: 1.5em;
+}
+
+#bottom-left-table{
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #9CBDBF;
+}
+
+#bottom-left-table{
+  margin-bottom: 1%;
+}
+
+#tier-select {
+  text-align: center;
+  margin: 2%;
+}
+
+#show-car-table{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+#car-table tr:nth-child(odd) { background-color : white; }
+#car-table tr:nth-child(even) { background-color : #d3d0cb; }
+#car-table tr:hover { background-color : #e6dff7; }
+
+/* <caption>Please select your driver:</caption> */
+/* #car-table caption{
+  caption-side: top;
+  text-align: center;
+} */
+
+#car-table {
+  border: black 2px solid;
+}
+
+#price-duration-container {
+  text-align: center;
+}
+
+#price, #duration, #distance {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold; 
+  
+}
+
+.row {
+  padding-left:inherit;
+  padding-right:inherit;
+}
+
+#checkout {
+  margin: 1%;
+}

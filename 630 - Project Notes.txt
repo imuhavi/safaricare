@@ -1,0 +1,46 @@
+630 - Project Notes
+key: AIzaSyCIumcSOTeP890tfGtNPajH0WmErIjAgcM
+
+- Show map ✓
+- Geocoding ✓
+
+- Geocode origin ✓
+- Distance check ✓
+- Price for ride:
+    https://www.uber.com/ca/en/price-estimate/
+    - Uber prices: 3.56km
+        - UberX = $14.33
+            Base: $2.50
+            Booking fee: $2.75
+            Minimum: $5.25
+            per Minute: $0.18 (minutes??)
+            Per Km: $0.81 (3.56km)
+            
+            Find trip time in minutes = 14.33 - 13.38= 0.95/0.18 = 5.27 minutes
+                avg speed = 3.56km / 5.27 minutes = 0.675km/minute (40.5km/hour)
+                    find minutes: Km / 0.675(km/minute) = trip minutes
+
+
+        - UberXL = $25.39
+            Base: $5
+            Booking fee: $3
+            Minimum: $8
+            per Minute: $0.36 * (3.56km / 0.675)
+            Per Km: $1.55 * (3.56km)
+
+            my total: $23.41
+
+        - Black = $34.45
+            Base: $8.75
+            Booking fee: $0
+            Minimum: $15.75
+            per Minute: $0.85 * (3.56km / 0.675)
+            Per Km: $2.23 * (3.56km)
+
+            my total: $35.69
+        
+https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyCIumcSOTeP890tfGtNPajH0WmErIjAgcM
+
+
+https://maps.googleapis.com/maps/api/geocode/json?address=43.6645888,-79.4206809&key=AIzaSyCIumcSOTeP890tfGtNPajH0WmErIjAgcM
+

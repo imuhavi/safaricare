@@ -1,0 +1,14 @@
+body {
+    background-color: #CDCDC2;
+}
+h1 {
+    text-align: center;
+}
+#contact .card:hover i,#contact .card:hover h4{
+	color: #CDCDC2;
+}
+
+.container {
+    margin-top: 9%;
+    background-color: #A0ADA1;
+}

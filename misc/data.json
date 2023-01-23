@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Aura",
+               "short_name" : "Aura",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "Old Toronto",
+               "short_name" : "Old Toronto",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Toronto",
+               "short_name" : "Toronto",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Toronto Division",
+               "short_name" : "Toronto Division",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "M5G 2K2",
+               "short_name" : "M5G 2K2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Aura, Toronto, ON M5G 2K2, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65942,
+               "lng" : -79.38278700000001
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.66076898029149,
+                  "lng" : -79.38143801970851
+               },
+               "southwest" : {
+                  "lat" : 43.6580710197085,
+                  "lng" : -79.38413598029152
+               }
+            }
+         },
+         "place_id" : "ChIJ6yjScLU0K4gRoPeZ4yjw7G8",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}
